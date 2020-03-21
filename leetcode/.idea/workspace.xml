@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60169f6-786a-419d-a843-f1f61f855d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,46 +17,56 @@
     <session id="2000679489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="648" />
+          <entry key="java" value="708" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="648" />
+          <entry key="JAVA" value="708" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="207">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#0#828#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -73,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/java/leetcode/editor/en/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/[1]Two Sum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/en/AddTwoNumbers.java" />
       </list>
     </option>
   </component>
@@ -89,8 +101,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="3" />
+    <option name="x" value="107" />
+    <option name="y" value="8" />
     <option name="width" value="1751" />
     <option name="height" value="1007" />
   </component>
@@ -101,9 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,13 +156,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579097227777" />
-    <property name="last_opened_file_path" value="D:/java/qinlin-mobileapi" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579167413364" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
@@ -221,18 +233,20 @@
       <updated>1579070922072</updated>
       <workItem from="1579070929214" duration="3828000" />
       <workItem from="1579074987565" duration="631000" />
-      <workItem from="1579075660740" duration="11765000" />
+      <workItem from="1579075660740" duration="12309000" />
+      <workItem from="1579146166242" duration="1406000" />
+      <workItem from="1579162197804" duration="2943000" />
+      <workItem from="1584779029890" duration="1197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16224000" />
+    <option name="totallyTimeSpent" value="22314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="3" width="1751" height="1007" extended-state="0" />
-    <editor active="true" />
+    <frame x="107" y="8" width="1751" height="1007" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13305736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22651297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -240,10 +254,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2614679" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2614679" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33600917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,14 +272,15 @@
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info anchor="bottom" id="Messages" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Codota" order="3" sideWeight="0.54701835" weight="0.329972" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="leetcode" order="5" sideWeight="0.18461539" side_tool="true" weight="0.329972" />
+      <window_info anchor="right" id="leetcode" order="5" sideWeight="0.18461539" side_tool="true" weight="0.32939088" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.5229358" weight="0.329972" />
+      <window_info anchor="right" id="Maven Projects" order="7" sideWeight="0.5229358" weight="0.32939088" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -282,26 +296,22 @@
     <entry file="file://$PROJECT_DIR$/src/java/leetcode/editor/cn/[9]回文数.java" />
     <entry file="file://$PROJECT_DIR$/src/java/leetcode/editor/cn/[2]两数相加.java" />
     <entry file="file://$PROJECT_DIR$/src/java/leetcode/editor/cn/[1]两数之和.java" />
-    <entry file="file://$PROJECT_DIR$/src/java/leetcode/editor/en/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/java/leetcode/editor/en/TwoSum.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/[10]Regular Expression Matching.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="66" lean-forward="true" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#0#650#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#828#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="713">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
