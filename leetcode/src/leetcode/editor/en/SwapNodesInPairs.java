@@ -1,5 +1,7 @@
 package leetcode.editor.en;
 
+import java.util.List;
+
 /**
  * @Author: Lai
  * @Date: 2020/7/23 21:41
@@ -36,6 +38,21 @@ public class SwapNodesInPairs {
      */
     class Solution {
         public ListNode swapPairs(ListNode head) {
+
+            if ((head == null)||(head.next == null)){
+                return head;
+            }
+
+            //定义前后节点
+            ListNode pre = head;
+            ListNode post = head.next;
+
+            pre.next = swapPairs(post.next);
+
+            //交换
+            post.next = pre;
+
+            return post;
 
         }
 
