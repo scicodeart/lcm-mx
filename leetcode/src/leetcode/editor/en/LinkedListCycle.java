@@ -1,5 +1,6 @@
 package leetcode.editor.en;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -74,46 +75,53 @@ public class LinkedListCycle {
     public class Solution {
 
         /**
-         * 法一，判空
+         * 法一，判空 循环节点判断指针节点是否为空，直到循环到出现相同节点，则可判断是否有环
          * @param head
          * @return
          */
         public boolean hasCycle1(ListNode head) {
 
-                Set<ListNode> nodesSeen = new HashSet<>();
-                while (head != null) {
-                    if (nodesSeen.contains(head)) {
-                        return true;
-                    } else {
-                        nodesSeen.add(head);
-                    }
-                    head = head.next;
+            //容器
+            Set<ListNode> container = new HashSet<>();
+
+            while (head != null){
+                //如果已经重复 说明已经第二环了
+                if (container.contains(head)){
+                    return true;
+                }else {
+                    container.add(head);
                 }
-                return false;
 
-
+                //循环
+                head = head.next;
+            }
+            return false;
         }
 
 
         /**
-         * 双指针法 快慢指针
+         * 双指针法 快慢指针 （一个指针循环走一步，一个指针循环走两步，如果是有环，则一定会相遇，即value相等）
          * @param head
          * @return
          */
         public boolean hasCycle2(ListNode head) {
-            if (head == null || head.next == null) {
+
+            if (head == null || head.next == null ){
                 return false;
             }
-            ListNode slow = head;
-            ListNode fast = head.next;
-            while (slow != fast) {
-                if (fast == null || fast.next == null) {
-                    return false;
+
+            ListNode a = head;
+            ListNode b = head.next;
+
+            while (b != null && b.next != null){
+                if (a.val == b.val){
+                    return true;
                 }
-                slow = slow.next;
-                fast = fast.next.next;
+                a = a.next;
+                b = b.next.next;
             }
-            return true;
+            return false;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
@@ -126,10 +134,16 @@ public class LinkedListCycle {
     public static void main(String[] args) {
         LinkedListCycle.Solution solution = new LinkedListCycle().new Solution();
 
-        ListNode head = new ListNode(4);
+        ListNode head =new ListNode(5);
         head.next = new ListNode(5);
+        head.next.next = new ListNode(2);
+        head.next.next.next = new ListNode(2);
+        head.next.next.next.next = new ListNode(2);
+        head.next.next.next.next.next = new ListNode(2);
 
-        System.out.println(solution.hasCycle1(head));
+
+//        head.next.next = head;
+        System.out.println(solution.hasCycle2(head));
 
     }
 
