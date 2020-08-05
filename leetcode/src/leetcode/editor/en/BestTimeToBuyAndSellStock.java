@@ -73,7 +73,9 @@ public class BestTimeToBuyAndSellStock{
             int maxProfit = 0;
             int minValue = prices[0];
             for (int i = 1; i < prices.length; i++) {
+                //找出最大值，然后反差
                 maxProfit = Math.max(prices[i]-minValue,maxProfit);
+                //找出最小值
                 minValue = Math.min(minValue, prices[i]);
             }
             return maxProfit;
