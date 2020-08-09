@@ -70,50 +70,44 @@ public class ValidParentheses {
         }
 
         /**
-         * 堆栈思路解决
+         * 使用栈作为该问题的中间数据结构的算法
          *
          * @param s
          * @return
          */
         public boolean isValid(String s) {
 
+            //初始化容器
+            Stack<Character> stack = new Stack<Character>();
 
-
-
-                    // Initialize a stack to be used in the algorithm.
-                    Stack<Character> stack = new Stack<Character>();
-
-                    for (int i = 0; i < s.length(); i++) {
-                        char c = s.charAt(i);
-
-                        // If the current character is a closing bracket.
-                        if (this.mappings.containsKey(c)) {
-
-                            // Get the top element of the stack. If the stack is empty, set a dummy value of '#'
-                            char topElement = stack.empty() ? '#' : stack.pop();
-
-                            // If the mapping for this bracket doesn't match the stack's top element, return false.
-                            if (topElement != this.mappings.get(c)) {
-                                return false;
-                            }
-                        } else {
-                            // If it was an opening bracket, push to the stack.
-                            stack.push(c);
-                        }
+            //分解字符串
+            for (int i = 0; i < s.length(); i++) {
+                char c = s.charAt(i);
+                //校验key
+                if (mappings.containsKey(c)){
+                    //查看是否已经有相对应的push，如果有就pop
+                    if (stack.contains(mappings.get(c))){
+                        stack.pop();
+                    }else {
+                        return false;
                     }
-
-                    // If the stack still contains elements, then it is an invalid expression.
-                    return stack.isEmpty();
+                }else {
+                    stack.push(c);
                 }
-
+            }
+            if (stack.empty()){
+                return true;
+            }else {
+                return false;
+            }
         }
+     }
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
         ValidParentheses.Solution solution = new ValidParentheses().new Solution();
-        if (solution.isValid("(()[{()}])")){
-            System.out.println(true);
-        }
+        System.out.println(solution.isValid("("));
+
     }
 
 
