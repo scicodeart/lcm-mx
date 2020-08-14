@@ -31,6 +31,7 @@ public class KthLargeElementInAnArray {
 
         /**
          * 排序
+         *
          * @param nums
          * @param k
          * @return
@@ -71,34 +72,71 @@ public class KthLargeElementInAnArray {
             int temp = a[i];
             a[i] = a[j];
             a[j] = temp;
-
         }
 
 
-        //TODO 堆排序
+        /**
+         * 维护动态数据的最大最小值，考虑堆
+         * 建立容量为k的最小值堆
+         *
+         * @param nums
+         * @param k
+         * @return
+         */
+        public int findKthLargest2(int[] nums, int k) {
 
-//        /**
-//         * 维护动态数据的最大最小值，考虑堆
-//         * 建立容量为k的最小值堆
-//         *
-//         * @param nums
-//         * @param k
-//         * @return
-//         */
-//        public int findKthLargest2(int[] nums, int k) {
-//
-//            //排序
-//
-//            //find the kth
-//
-//        }
+            //堆排序
+            int n = nums.length;
+            buildHeapify(nums, n);
+            for (int i = n - 1; i >= 0 ; i--) {
+                //把root（最大值）与尾节点交换
+                swap(nums,i,0);
+                //i代表当前需要排序的节点个数
+                heapify(nums,i,0);
+            }
+            for (int i = 0; i <nums.length ; i++) {
+                System.out.println(nums[i]);
+            }
+            return nums[nums.length-k];
+
+        }
+
+        private void heapify(int[] nums, int n, int i) {
+
+            int max = i;
+            int c1 = 2 * i + 1;
+            int c2 = 2 * i + 2;
+
+            if (c1 < n && nums[c1] > nums[i]) {
+                max = c1;
+            }
+            if (c2 < n && nums[c2] > nums[i]) {
+                max = c2;
+            }
+            if (max != i) {
+                swap(nums, max, i);
+                heapify(nums, n, max);
+            }
+
+
+        }
+
+        public void buildHeapify(int tree[], int n) {
+            int lastNode = n - 1;
+            int parent = (lastNode - 1) / 2;
+            int i;
+            for (i = parent; i >= 0; i--) {
+                heapify(tree, n, i);
+            }
+        }
+        //leetcode submit region end(Prohibit modification and deletion)
     }
-  //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
         KthLargeElementInAnArray.Solution solution = new KthLargeElementInAnArray().new Solution();
-        int[] a = {1,2,3,4,5,7,7,8};
-        solution.findKthLargest1(a,3);
+        int[] a = {3,2,1,5,6,4};
+        solution.findKthLargest2(a, 2);
+//        System.out.println(solution.findKthLargest2(a, 2));
     }
 
 }

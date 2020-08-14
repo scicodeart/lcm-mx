@@ -14,7 +14,7 @@ public class HeapSort {
      * @param n    节点数
      * @param i    第i个节点做heapify
      */
-    private static void heapify(int tree[], int n, int i) {
+    public static void heapify(int tree[], int n, int i) {
         // 节点i < n
         if (i >= n) {
             return;
@@ -37,7 +37,7 @@ public class HeapSort {
     }
 
 
-    private static void swap(int[] tree, int j, int i) {
+    public static void swap(int[] tree, int j, int i) {
         int temp = tree[i];
         tree[i] = tree[j];
         tree[j] = temp;
@@ -54,7 +54,7 @@ public class HeapSort {
      * @param tree 数组乱序
      * @param n    n个节点
      */
-    private static void buildHeapify(int tree[], int n) {
+    public static void buildHeapify(int tree[], int n) {
         int lastNode = n - 1;
         int parent = (lastNode - 1) / 2;
         int i;
@@ -70,7 +70,7 @@ public class HeapSort {
      * @param tree
      * @param n
      */
-    private static void heapSort(int tree[],int n){
+    public static void heapSort(int tree[],int n){
         //先造一个完整的大顶堆
         buildHeapify(tree,n);
         for (int i = n - 1; i >= 0 ; i--) {
@@ -85,7 +85,7 @@ public class HeapSort {
 
         int tree[] = {4, 10, 3, 5, 1, 11};
         int n = 6;
-        heapSort(tree, n);
+        buildHeapify(tree, n);
         for (int i = 0; i < n; i++) {
             System.out.println(tree[i]);
         }
