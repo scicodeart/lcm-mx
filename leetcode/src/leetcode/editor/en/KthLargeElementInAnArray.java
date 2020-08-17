@@ -85,6 +85,12 @@ public class KthLargeElementInAnArray {
          */
         public int findKthLargest2(int[] nums, int k) {
 
+            int[] sortNums = heapSort(nums);
+            return nums[sortNums.length-k];
+
+        }
+
+        public int[] heapSort(int[] nums){
             //堆排序
             int n = nums.length;
             buildHeapify(nums, n);
@@ -94,19 +100,18 @@ public class KthLargeElementInAnArray {
                 //i代表当前需要排序的节点个数
                 heapify(nums,i,0);
             }
-            for (int i = 0; i <nums.length ; i++) {
-                System.out.println(nums[i]);
-            }
-            return nums[nums.length-k];
-
+            return nums;
         }
 
         private void heapify(int[] nums, int n, int i) {
+            // 节点i < n
+            if (i >= n) {
+                return;
+            }
 
-            int max = i;
             int c1 = 2 * i + 1;
             int c2 = 2 * i + 2;
-
+            int max = i;
             if (c1 < n && nums[c1] > nums[i]) {
                 max = c1;
             }
@@ -135,7 +140,12 @@ public class KthLargeElementInAnArray {
     public static void main(String[] args) {
         KthLargeElementInAnArray.Solution solution = new KthLargeElementInAnArray().new Solution();
         int[] a = {3,2,1,5,6,4};
-        solution.findKthLargest2(a, 2);
+        int[] ints = solution.heapSort(a);
+
+        for (int i = 0; i < ints.length; i++) {
+            System.out.println(ints[i]);
+        }
+//        solution.findKthLargest2(a, 2);
 //        System.out.println(solution.findKthLargest2(a, 2));
     }
 

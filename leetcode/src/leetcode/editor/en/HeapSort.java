@@ -83,9 +83,9 @@ public class HeapSort {
 
     public static void main(String[] args) {
 
-        int tree[] = {4, 10, 3, 5, 1, 11};
+        int tree[] = {3,2,1,5,6,4};
         int n = 6;
-        buildHeapify(tree, n);
+        heapSort(tree, n);
         for (int i = 0; i < n; i++) {
             System.out.println(tree[i]);
         }
