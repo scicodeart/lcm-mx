@@ -1,5 +1,7 @@
 package leetcode.editor.en;
 
+import java.util.Arrays;
+
 public class HouseRobber {
 //You are a professional robber planning to rob houses along a street. Each hous
 //e has a certain amount of money stashed, the only constraint stopping you from r
@@ -43,10 +45,46 @@ public class HouseRobber {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
+        /**
+         * 递归式：
+         * 选i：OPT(i)max = opt(i-2) + arr[i]
+         * 不选i：OPT(i)max = opt(i-1)
+         *
+         * opt[0] = arr[0]
+         * opt[i]max = arr[0] || arr[1]
+         *
+         * @param nums
+         * @return
+         */
         public int rob(int[] nums) {
+
+
 
             return 1;
         }
+
+        public int rec_rob(int[] arr,int i){
+            if (i == 0){
+                return arr[0];
+            }else if (i == 1){
+                return Math.max(arr[0],arr[1]);
+            }else {
+
+
+            }
+            return 0;
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        HouseRobber.Solution solution = new HouseRobber().new Solution();
+        int[] nums = {1,2,4,1,7,8,3};
+        int[] ints = solution.rob();
+        System.out.println(Arrays.toString(ints));
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
