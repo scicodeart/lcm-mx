@@ -58,14 +58,15 @@ public class HouseRobber {
          * @return
          */
         public int rob(int[] nums) {
-            if (nums == null || nums.length == 0){
+            if (nums == null || nums.length == 0) {
                 return 0;
             }
-            return rec_rob(nums, nums.length-1);
+            return rec_rob(nums, nums.length - 1);
         }
 
         /**
          * 递归方法(每个i都需要从头算一遍)
+         *
          * @param arr
          * @param i
          * @return
@@ -91,16 +92,16 @@ public class HouseRobber {
          * @param arr
          * @return
          */
-        public int dp_opt(int[] arr){
+        public int dp_opt(int[] arr) {
             int[] opt = new int[arr.length];
             opt[0] = arr[0];
-            opt[1]= Math.max(arr[0],arr[1]);
+            opt[1] = Math.max(arr[0], arr[1]);
             for (int j = 2; j < arr.length; j++) {
                 // 选i
-                int a = opt[j-2] + arr[j];
+                int a = opt[j - 2] + arr[j];
                 // 不选i
-                int b = opt[j-1];
-                opt[j] = Math.max(a,b);
+                int b = opt[j - 1];
+                opt[j] = Math.max(a, b);
             }
             return opt[arr.length - 1];
         }
