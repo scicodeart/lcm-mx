@@ -15,8 +15,6 @@
 // Related Topics Linked List Math
 package leetcode.editor.en;
 
-import java.util.Arrays;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
