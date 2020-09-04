@@ -1,7 +1,5 @@
 package leetcode.editor.en;
 
-import java.util.List;
-
 /**
  * @Author: Lai
  * @Date: 2020/7/23 21:41
@@ -26,38 +24,59 @@ public class SwapNodesInPairs {
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
     /**
      * Definition for singly-linked list.
      * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
     class Solution {
+        public ListNode swapPairsPriority(ListNode head) {
+
+            // Dummy node acts as the prevNode for the head node
+            // of the list and hence stores pointer to the head node.
+            ListNode dummy = new ListNode(-1);
+            dummy.next = head;
+
+            ListNode prev = dummy;
+
+            while (head != null && head.next != null) {
+
+                ListNode first = head;
+                ListNode second = head.next;
+
+                prev.next = second;
+                first.next = second.next;
+                second.next = first;
+
+                head = first.next;
+                prev = first;
+            }
+            return dummy.next;
+
+        }
+
+
         public ListNode swapPairs(ListNode head) {
 
-            if ((head == null)||(head.next == null)){
+            if ((head == null) || (head.next == null)) {
                 return head;
             }
 
             //定义前后节点
             ListNode pre = head;
             ListNode post = head.next;
-
             pre.next = swapPairs(post.next);
 
             //交换
             post.next = pre;
-
             return post;
-
         }
-
-        //todo 第二种办法 时间复杂度最优 priority
-
 
 
     }
