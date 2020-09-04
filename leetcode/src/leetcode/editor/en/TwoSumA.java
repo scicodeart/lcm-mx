@@ -3,7 +3,7 @@ package leetcode.editor.en;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSumSecond {
+public class TwoSumA {
 
     //Given an array of integers, return indices of the two numbers such that they a
 //dd up to a specific target.
