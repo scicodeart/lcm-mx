@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
 public class BullsAndCows {
     //You are playing the following Bulls and Cows game with your friend: You write

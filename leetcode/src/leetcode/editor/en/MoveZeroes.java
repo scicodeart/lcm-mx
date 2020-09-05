@@ -16,7 +16,7 @@ public class MoveZeroes {
 //
 // You must do this in-place without making a copy of the array.
 // Minimize the total number of operations.
-// Related Topics Array Two Pointers
+// Related Topics array Two Pointers
 
 
     //leetcode submit region begin(Prohibit modification and deletion)

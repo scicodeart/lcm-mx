@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.linkedList;
 
 import java.util.HashSet;
 import java.util.Set;

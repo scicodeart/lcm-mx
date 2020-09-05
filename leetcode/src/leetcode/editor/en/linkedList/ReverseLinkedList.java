@@ -1,6 +1,4 @@
-package leetcode.editor.en;
-
-import java.util.Currency;
+package leetcode.editor.en.linkedList;
 
 public class ReverseLinkedList {
 

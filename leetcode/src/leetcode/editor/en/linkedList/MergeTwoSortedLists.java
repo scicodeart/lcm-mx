@@ -1,4 +1,6 @@
-package leetcode.editor.en;
+package leetcode.editor.en.linkedList;
+
+import leetcode.editor.en.ListNode;
 
 public class MergeTwoSortedLists {
 
@@ -26,7 +28,7 @@ public class MergeTwoSortedLists {
      * }
      */
     class Solution {
-        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        public leetcode.editor.en.ListNode mergeTwoLists(leetcode.editor.en.ListNode l1, leetcode.editor.en.ListNode l2) {
 
             if (l1 == null) {
                 return l2;

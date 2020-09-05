@@ -44,7 +44,7 @@
 //// Note:
 ////
 //// 0 ≤ N ≤ 30.
-//// Related Topics Array
+//// Related Topics array
 //
 //
 //    //leetcode submit region begin(Prohibit modification and deletion)

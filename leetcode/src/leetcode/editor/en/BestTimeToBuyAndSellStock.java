@@ -1,7 +1,5 @@
 package leetcode.editor.en;
 
-import java.util.Arrays;
-
 public class BestTimeToBuyAndSellStock{
 //Say you have an array for which the ith element is the price of a given stock
 //on day i.
@@ -30,7 +28,7 @@ public class BestTimeToBuyAndSellStock{
 //Output: 0
 //Explanation: In this case, no transaction is done, i.e. max profit = 0.
 //
-// Related Topics Array Dynamic Programming
+// Related Topics array Dynamic Programming
 
 
     //leetcode submit region begin(Prohibit modification and deletion)

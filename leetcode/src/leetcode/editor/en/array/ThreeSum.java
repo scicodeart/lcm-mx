@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
 import java.util.*;
 
@@ -23,7 +23,7 @@ public class ThreeSum {
 //  [-1, -1, 2]
 //]
 //
-// Related Topics Array Two Pointers
+// Related Topics array Two Pointers
 
 
     //leetcode submit region begin(Prohibit modification and deletion)

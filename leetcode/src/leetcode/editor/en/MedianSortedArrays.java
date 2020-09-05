@@ -28,7 +28,7 @@ public class MedianSortedArrays {
 //
 //The median is (2 + 3)/2 = 2.5
 //
-// Related Topics Array Binary Search Divide and Conquer
+// Related Topics array Binary Search Divide and Conquer
 
 
     //leetcode submit region begin(Prohibit modification and deletion)

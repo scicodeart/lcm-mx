@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
 public class ContainerWithMostWater {
     //Given n non-negative integers a1, a2, ..., an , where each represents a point
@@ -21,7 +21,7 @@ public class ContainerWithMostWater {
 //
 //
 //Input: [1,8,6,2,5,4,8,3,7]
-//Output: 49 Related Topics Array Two Pointers
+//Output: 49 Related Topics array Two Pointers
 
 
     //leetcode submit region begin(Prohibit modification and deletion)

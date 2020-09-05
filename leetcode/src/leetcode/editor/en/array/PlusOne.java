@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -45,7 +45,7 @@ public class PlusOne {
 // 1 <= digits.length <= 100
 // 0 <= digits[i] <= 9
 //
-// Related Topics Array
+// Related Topics array
 
 
     //leetcode submit region begin(Prohibit modification and deletion)
