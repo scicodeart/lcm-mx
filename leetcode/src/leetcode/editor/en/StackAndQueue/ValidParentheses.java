@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.StackAndQueue;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -78,7 +78,7 @@ public class ValidParentheses {
         public boolean isValid(String s) {
 
             //初始化容器
-            Stack<Character> stack = new Stack<Character>();
+            Stack<Character> stack = new Stack<>();
 
             //分解字符串
             for (int i = 0; i < s.length(); i++) {
