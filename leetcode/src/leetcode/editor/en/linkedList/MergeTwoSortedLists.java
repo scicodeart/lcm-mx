@@ -1,7 +1,5 @@
 package leetcode.editor.en.linkedList;
 
-import leetcode.editor.en.ListNode;
-
 public class MergeTwoSortedLists {
 
     //Merge two sorted linked lists and return it as a new sorted list. The new list
@@ -28,7 +26,7 @@ public class MergeTwoSortedLists {
      * }
      */
     class Solution {
-        public leetcode.editor.en.ListNode mergeTwoLists(leetcode.editor.en.ListNode l1, leetcode.editor.en.ListNode l2) {
+        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
             if (l1 == null) {
                 return l2;

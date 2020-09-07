@@ -14,7 +14,7 @@
 //
 // Related Topics array Hash Table
 
-package leetcode.editor.en;
+package leetcode.editor.en.Hash;
 
 
 import java.util.Arrays;
