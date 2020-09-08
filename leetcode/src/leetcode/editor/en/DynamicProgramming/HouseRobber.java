@@ -1,6 +1,4 @@
-package leetcode.editor.en;
-
-import java.util.Arrays;
+package leetcode.editor.en.DynamicProgramming;
 
 public class HouseRobber {
 //You are a professional robber planning to rob houses along a street. Each hous
