@@ -3,11 +3,35 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[263]丑数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[263]丑数.java" />
+              <option name="questionId" value="263" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[剑指 Offer 49]丑数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[剑指 Offer 49]丑数.java" />
+              <option name="questionId" value="100334" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[11]Container With Most Water.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[11]Container With Most Water.java" />
               <option name="questionId" value="11" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[1201]Ugly Number III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[1201]Ugly Number III.java" />
+              <option name="questionId" value="1307" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -147,11 +171,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[313]Super Ugly Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[313]Super Ugly Number.java" />
+              <option name="questionId" value="313" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[32]Longest Valid Parentheses.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[32]Longest Valid Parentheses.java" />
               <option name="questionId" value="32" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[347]Top K Frequent Elements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[347]Top K Frequent Elements.java" />
+              <option name="questionId" value="347" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -184,6 +224,14 @@
             <LeetcodeEditor>
               <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[509]Fibonacci Number.java" />
               <option name="questionId" value="1013" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[589]N-ary Tree Preorder Traversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[589]N-ary Tree Preorder Traversal.java" />
+              <option name="questionId" value="775" />
             </LeetcodeEditor>
           </value>
         </entry>
