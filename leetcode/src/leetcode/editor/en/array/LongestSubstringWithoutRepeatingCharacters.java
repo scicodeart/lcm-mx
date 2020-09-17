@@ -34,7 +34,7 @@
 //
 // Related Topics Hash Table Two Pointers String Sliding Window
 
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
 import java.util.HashSet;
 import java.util.Set;

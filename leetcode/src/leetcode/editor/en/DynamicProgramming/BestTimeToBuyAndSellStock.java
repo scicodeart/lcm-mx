@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.DynamicProgramming;
 
 public class BestTimeToBuyAndSellStock{
 //Say you have an array for which the ith element is the price of a given stock

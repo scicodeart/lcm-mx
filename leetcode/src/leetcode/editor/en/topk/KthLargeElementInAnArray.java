@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.en.topk;
 
 import java.util.Random;
 

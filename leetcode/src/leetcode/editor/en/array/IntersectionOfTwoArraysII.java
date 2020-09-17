@@ -1,8 +1,6 @@
-package leetcode.editor.en;
+package leetcode.editor.en.array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class IntersectionOfTwoArraysII {
 
