@@ -109,7 +109,7 @@ public class MajorityELement {
     class Solution3 {
 
         /**
-         * hash
+         * 分治法
          *
          * @param nums
          * @return
@@ -151,4 +151,14 @@ public class MajorityELement {
             return count;
         }
 
-    }}
+    }
+
+    public static void main(String[] args) {
+        MajorityELement.Solution3 solution = new MajorityELement().new Solution3();
+        int[] nums = {1, 2, 2, 2};
+        int res = solution.majorityElement(nums);
+        System.out.println(res);
+
+    }
+
+}
