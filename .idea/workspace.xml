@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc00d30f-8338-412b-9871-7e8b161fa117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/BFS/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/BFS/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/DFS/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/DFS/MinimumGeneticMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/DFS/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityElementA$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityElementA$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/NumberOfIsland$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/NumberOfIsland$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreeInorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreeInorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreeInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreeLowestCommonAncestor$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreeLowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePostorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePostorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePostorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePreorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePreorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/BinaryTreePreorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/MaximumDepthOfBinaryTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/MaximumDepthOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/NAryTreePreorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/NAryTreePreorderTraversal$SolutionByRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/NAryTreePreorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/ValidateBinarySearchTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/ValidateBinarySearchTree$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/tree/ValidateBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/BinaryTreeLowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/BinaryTreeLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/BinaryTreePostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/NAryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/NAryTreePreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/tree/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/recursion/tree/ValidateBinarySearchTree.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1875" />
+    <option name="y" value="-85" />
+    <option name="width" value="1219" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lcm-mx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lcm-mx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lcm-mx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lcm-mx" type="462c0819:PsiDirectoryNode" />
+              <item name="Back-End" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc00d30f-8338-412b-9871-7e8b161fa117" name="Default Changelist" comment="" />
+      <created>1600797939937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600797939937</updated>
+      <workItem from="1600797941606" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1875" y="-85" width="1219" height="829" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497876" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
