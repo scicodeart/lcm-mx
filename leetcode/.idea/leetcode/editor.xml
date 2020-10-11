@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[1143]最长公共子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[1143]最长公共子序列.java" />
+              <option name="questionId" value="1250" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[263]丑数.java">
           <value>
             <LeetcodeEditor>
@@ -32,6 +40,14 @@
             <LeetcodeEditor>
               <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[62]不同路径.java" />
               <option name="questionId" value="62" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[63]不同路径 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[63]不同路径 II.java" />
+              <option name="questionId" value="63" />
             </LeetcodeEditor>
           </value>
         </entry>
