@@ -52,7 +52,24 @@ public class LongestCommonSubsequenceA {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int longestCommonSubsequence(String text1, String text2) {
+            int m = text1.length();
+            int n = text2.length();
 
+            int[][] dp = new int[m + 1][n + 1];
+            // 相当于第一列和第一行初始化为0 作为开始
+            for (int i = 1; i <= m; i++) {
+                for (int j = 1; j <= n; j++) {
+
+                    // 注意text的下标是从0开始的 --》当前字符比对相等，则递推状态+1
+                    if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
+                        dp[i][j] = dp[i - 1][j - 1] + 1;
+                    } else {
+                        //不相等则取前面最优
+                        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                    }
+                }
+            }
+            return dp[m][n];
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

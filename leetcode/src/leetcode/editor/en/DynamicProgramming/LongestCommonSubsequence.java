@@ -65,6 +65,7 @@ public class LongestCommonSubsequence {
                 for (int j = 0; j < n; j++) {
                     // 获取两个串字符
                     char c1 = text1.charAt(i), c2 = text2.charAt(j);
+
                     if (c1 == c2) {
                         // 去找它们前面各退一格的值加1即可
                         dp[i + 1][j + 1] = dp[i][j] + 1;
