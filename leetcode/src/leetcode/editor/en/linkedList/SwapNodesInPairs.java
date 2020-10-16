@@ -62,6 +62,7 @@ public class SwapNodesInPairs {
         }
 
 
+        //递归
         public ListNode swapPairs(ListNode head) {
 
             if ((head == null) || (head.next == null)) {

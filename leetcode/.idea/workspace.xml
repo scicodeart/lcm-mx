@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/array/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/lcm-mx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/lcm-mx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../source-coding/src/main/java/com/lcm/LRU/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../source-coding/src/main/java/com/lcm/LRU/LRUCache.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,31 +38,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/TriangleDescription.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/array/ReverseBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="113" column="63" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
+            <state relative-caret-position="185">
+              <caret line="34" selection-start-line="34" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/array/ReverseBits.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#136#160#0" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairsByteDance.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="186">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -145,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/editor/en/array/ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/editor/en/StackAndQueue/ImplementQueueUsingStacks.java" />
         <option value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[169]Majority Element.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/backTracing/MajorityELement.java" />
         <option value="/var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[860]Lemonade Change.java" />
@@ -196,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairsByteDance.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/TriangleDescription.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/array/ReverseBits.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsB.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairs.java" />
       </list>
     </option>
   </component>
@@ -205,11 +211,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1382" />
-    <option name="y" value="-53" />
-    <option name="width" value="1457" />
-    <option name="height" value="816" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="180" />
+    <option name="y" value="125" />
+    <option name="width" value="1080" />
+    <option name="height" value="617" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -220,6 +226,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,13 +250,26 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,18 +417,19 @@
       <workItem from="1602428632727" duration="3835000" />
       <workItem from="1602601443812" duration="1828000" />
       <workItem from="1602659586973" duration="6277000" />
-      <workItem from="1602774066240" duration="931000" />
+      <workItem from="1602774066240" duration="1479000" />
+      <workItem from="1602832512416" duration="2829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173676000" />
+    <option name="totallyTimeSpent" value="177053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1382" y="-53" width="1457" height="816" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18727915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1795422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -423,7 +444,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992658" visible="true" weight="0.16850829" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992658" visible="true" weight="0.2759036" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007342" side_tool="true" weight="0.29247573" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32614213" />
@@ -435,7 +456,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" sideWeight="0.35809523" weight="0.24373795" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="leetcode" order="5" sideWeight="0.6419048" side_tool="true" visible="true" weight="0.30530035" />
+      <window_info anchor="right" id="leetcode" order="5" sideWeight="0.6419048" side_tool="true" visible="true" weight="0.22603719" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" sideWeight="0.12586206" weight="0.27110156" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -479,28 +500,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsA.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[455]Assign Cookies.java" />
-    <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[122]Best Time to Buy and Sell Stock II.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/recursion/DFS/Minesweeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/WalkingRobotSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -701,6 +701,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[190]颠倒二进制位.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/TriangleDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="63" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairsByteDance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -750,27 +764,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/cn/[190]颠倒二进制位.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/TriangleDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="113" column="63" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/array/ReverseBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#136#160#0" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
