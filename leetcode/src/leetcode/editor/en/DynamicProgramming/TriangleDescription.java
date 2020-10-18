@@ -101,19 +101,19 @@ public class TriangleDescription {
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
-    /**
-     * 空间优化
-     */
-    class Solution3 {
-        /**
-         * 递归
-         *
-         * @param triangle
-         * @return
-         */
-        public int minimumTotal(List<List<Integer>> triangle) {
-
-        }
-    }
+//    /**
+//     * 空间优化
+//     */
+//    class Solution3 {
+//        /**
+//         * 递归
+//         *
+//         * @param triangle
+//         * @return
+//         */
+//        public int minimumTotal(List<List<Integer>> triangle) {
+//
+//        }
+//    }
 
 }

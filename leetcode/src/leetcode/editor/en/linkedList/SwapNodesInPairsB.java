@@ -21,7 +21,7 @@ public class SwapNodesInPairsB {
             //一个指针：用于头部方向，保持方向不动返回结果
             ListNode dummy = new ListNode(-1);
 
-            //head指针保持
+            //head指针保持????????????
             dummy.next = head;
 
             //第三个指针用于循环交换
@@ -44,5 +44,17 @@ public class SwapNodesInPairsB {
 
             return dummy.next;
         }
+    }
+
+    public static void main(String[] args) {
+
+        SwapNodesInPairsB.Solution solution = new SwapNodesInPairsB().new Solution();
+        ListNode test = new ListNode(1);
+        test.next = new ListNode(2);
+        test.next.next = new ListNode(3);
+        test.next.next.next = new ListNode(4);
+        test.next.next.next.next = null;
+        System.out.println(solution.swapPairs(test).val);
+
     }
 }
