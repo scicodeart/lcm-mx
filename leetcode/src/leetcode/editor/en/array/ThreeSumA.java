@@ -66,9 +66,8 @@ public class ThreeSumA {
                     } else if (nums[a] + nums[b] == -nums[i]) {
                         result.add(new ArrayList<>(Arrays.asList(nums[a], nums[b], nums[i])));
                         while (a < b && nums[a] == nums[a + 1]) a++;
-                        while (a < b && nums[b] == nums[b + 1]) b++;
-                        a++;
-                        b++;
+                        while (a < b && nums[b] == nums[b - 1]) b--;
+
                     }
                 }
             }
