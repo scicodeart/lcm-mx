@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/bitwise/NumberOfOneBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/bitwise/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/WordLadderA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/sort/QuickSortA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/lcm-mx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/lcm-mx.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../source-coding/src/main/java/com/lcm/LRU/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../source-coding/src/main/java/com/lcm/LRU/LRUCache.java" afterDir="false" />
     </list>
@@ -41,23 +40,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/bitwise/NumberOfOneBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            <state relative-caret-position="1170">
+              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/bitwise/PowerOfTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/WordLadderA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#137#192#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/bitwise/PowerOfTwo.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/sort/QuickSortA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="62" selection-end-column="36" />
-              <folding>
-                <element signature="e#132#163#0" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -86,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/editor/en/recursion/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/MinimumGeneticMutation.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/recursion/DFS/MinimumGeneticMutation.java" />
@@ -137,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/array/ThreeSumB.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/bitwise/NumberOfOneBits.java" />
         <option value="$PROJECT_DIR$/src/leetcode/editor/en/bitwise/PowerOfTwo.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/WordLadderA.java" />
       </list>
     </option>
   </component>
@@ -147,10 +161,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2031" />
-    <option name="y" value="147" />
-    <option name="width" value="1080" />
-    <option name="height" value="617" />
+    <option name="x" value="1559" />
+    <option name="y" value="-89" />
+    <option name="width" value="1321" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,14 +199,12 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="bitwise" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,17 +379,18 @@
       <workItem from="1603626966819" duration="457000" />
       <workItem from="1603688819363" duration="3899000" />
       <workItem from="1603802137520" duration="2005000" />
+      <workItem from="1603947638240" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198970000" />
+    <option name="totallyTimeSpent" value="199856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2031" y="147" width="1080" height="617" extended-state="0" />
+    <frame x="1559" y="-89" width="1321" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24759153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20484754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,7 +405,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992658" visible="true" weight="0.30285713" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992658" visible="true" weight="0.21428572" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007342" side_tool="true" weight="0.29247573" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3253012" />
@@ -471,20 +486,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DivideAndConquer/MajorityELement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DivideAndConquer/LemonadeChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1159">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/DivideAndConquer/MajorityElementA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -759,21 +760,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/bitwise/NumberOfOneBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="78" column="34" lean-forward="true" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-          <folding>
-            <element signature="e#137#192#0" />
-          </folding>
+        <state relative-caret-position="1170">
+          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/bitwise/PowerOfTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="384">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/recursion/BFS/WordLadderA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#132#163#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/editor/en/sort/QuickSortA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
