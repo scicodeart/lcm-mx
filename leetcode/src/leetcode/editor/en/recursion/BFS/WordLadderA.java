@@ -11,13 +11,13 @@ import java.util.Set;
  */
 public class WordLadderA {
     class Solution {
-        public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-            // 第 1 步：先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
-            Set<String> wordSet = new HashSet<>(wordList);
-            if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
-                return 0;
-            }
-
-        }
+//        public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+//            // 第 1 步：先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
+//            Set<String> wordSet = new HashSet<>(wordList);
+//            if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
+//                return 0;
+//            }
+//
+//        }
     }
 }
