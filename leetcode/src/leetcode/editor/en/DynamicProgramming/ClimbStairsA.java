@@ -77,9 +77,12 @@ public class ClimbStairsA {
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
-        ClimbStairsA.Solution solution = new ClimbStairsA().new Solution();
-        System.out.println(solution.climbStairs(2));
+        String data = "cd138ee090d6b0e246207cfaa91fa91fca0b86e3";
+        System.out.println(data.length());
+
     }
+
+
 
 
 }
