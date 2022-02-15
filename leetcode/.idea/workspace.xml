@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="">
+    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="git climb stairs">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/MinimumPathSumA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePaths1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/sort/QuickSortB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/sort/QuickSortB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +67,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1jrZlEzZs6ZEYamwTbzGY9eDEoh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,9 +82,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,28 +99,68 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.idea/artifacts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/leetcode/editor/en/recursion" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.editor.en.DisjointSet" />
       <recent name="leetcode.editor.en.LinkedList" />
       <recent name="leetcode.editor.en" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/leetcode/editor/en/recursion" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSortB (1)">
-    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.recursion.DFS.GenerateParentheses" />
+  <component name="RunManager" selected="Application.MinimumPathSumA">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.DynamicProgramming.ClimbStairs" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.en.recursion.DFS.*" />
+          <option name="PATTERN" value="leetcode.editor.en.DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbStairsA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.DynamicProgramming.ClimbStairsA" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.en.DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumPathSumA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.DynamicProgramming.MinimumPathSumA" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.en.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,50 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.editor.en.sort.QuickSortB" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.editor.en.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwapNodesInPairsB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.linkedList.SwapNodesInPairsB" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.en.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumPathSumA" />
+        <item itemvalue="Application.ClimbStairsA" />
+        <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.QuickSortB (1)" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.QuickSortB" />
-        <item itemvalue="Application.SwapNodesInPairsB" />
-        <item itemvalue="Application.GenerateParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -238,65 +271,60 @@
       <workItem from="1604631029932" duration="3227000" />
       <workItem from="1604653464859" duration="27000" />
       <workItem from="1604920761252" duration="3882000" />
+      <workItem from="1641363560364" duration="767000" />
+      <workItem from="1643029819200" duration="4602000" />
+      <workItem from="1643076052308" duration="430000" />
+      <workItem from="1643161841057" duration="1071000" />
+      <workItem from="1643426251452" duration="896000" />
+      <workItem from="1643557629346" duration="1217000" />
+      <workItem from="1644500846460" duration="384000" />
+      <workItem from="1644503993776" duration="1273000" />
+      <workItem from="1644764367165" duration="742000" />
+      <workItem from="1644909923617" duration="12389000" />
     </task>
+    <task id="LOCAL-00001" summary="git test">
+      <created>1641364305026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641364305026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git add 2022 FibonacciNumber">
+      <created>1643033827833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643033827833</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git climb stairs">
+      <created>1644546149380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644546149380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="277" y="23" key="CommitChangelistDialog2" timestamp="1604924210597">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="277" y="23" key="CommitChangelistDialog2/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924210597" />
-    <state width="1356" height="185" key="GridCell.Tab.0.bottom" timestamp="1604924502640">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="185" key="GridCell.Tab.0.bottom/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924502640" />
-    <state width="1356" height="172" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1604568285436" />
-    <state width="1231" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806/-154.-1057.1920.1057@0.23.1440.806" timestamp="1604564515989" />
-    <state width="1356" height="185" key="GridCell.Tab.0.center" timestamp="1604924502640">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="185" key="GridCell.Tab.0.center/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924502640" />
-    <state width="1356" height="172" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1604568285436" />
-    <state width="1231" height="172" key="GridCell.Tab.0.center/0.23.1440.806/-154.-1057.1920.1057@0.23.1440.806" timestamp="1604564515988" />
-    <state width="1356" height="185" key="GridCell.Tab.0.left" timestamp="1604924502639">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="185" key="GridCell.Tab.0.left/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924502639" />
-    <state width="1356" height="172" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1604568285436" />
-    <state width="1231" height="172" key="GridCell.Tab.0.left/0.23.1440.806/-154.-1057.1920.1057@0.23.1440.806" timestamp="1604564515988" />
-    <state width="1356" height="185" key="GridCell.Tab.0.right" timestamp="1604924502640">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="185" key="GridCell.Tab.0.right/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924502640" />
-    <state width="1356" height="172" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1604568285436" />
-    <state width="1231" height="172" key="GridCell.Tab.0.right/0.23.1440.806/-154.-1057.1920.1057@0.23.1440.806" timestamp="1604564515989" />
-    <state width="1356" height="253" key="GridCell.Tab.1.bottom" timestamp="1604923496213">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604923496213" />
-    <state width="1356" height="253" key="GridCell.Tab.1.center" timestamp="1604923496213">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="253" key="GridCell.Tab.1.center/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604923496213" />
-    <state width="1356" height="253" key="GridCell.Tab.1.left" timestamp="1604923496212">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="253" key="GridCell.Tab.1.left/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604923496212" />
-    <state width="1356" height="253" key="GridCell.Tab.1.right" timestamp="1604923496213">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state width="1356" height="253" key="GridCell.Tab.1.right/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604923496213" />
-    <state x="288" y="163" key="IDE.errors.dialog" timestamp="1604924052117">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="288" y="163" key="IDE.errors.dialog/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604924052117" />
-    <state x="201" y="60" key="SettingsEditor" timestamp="1604631244563">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="201" y="60" key="SettingsEditor/0.23.1440.797/0.-1057.1920.1057@0.23.1440.797" timestamp="1604631244563" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git test" />
+    <MESSAGE value="git add 2022 FibonacciNumber" />
+    <MESSAGE value="git climb stairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="git climb stairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,6 +343,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/en/linkedList/SwapNodesInPairsB.java</url>
           <line>44</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairsA.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
