@@ -1,7 +1,7 @@
 package leetcode.editor.en.DynamicProgramming;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author
  * @date 2022/1/24 9:41 PM
  */
 public class FibonacciNumberA {

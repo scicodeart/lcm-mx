@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="git climb stairs">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/MinimumPathSumA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePaths1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="git opt[i][j] for paths">
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumberA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumberA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +277,7 @@
       <workItem from="1644500846460" duration="384000" />
       <workItem from="1644503993776" duration="1273000" />
       <workItem from="1644764367165" duration="742000" />
-      <workItem from="1644909923617" duration="12389000" />
+      <workItem from="1644909923617" duration="12635000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1641364305026</created>
@@ -303,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644546149380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git opt[i][j] for paths">
+      <created>1644951106066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644951106066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +328,8 @@
     <MESSAGE value="git test" />
     <MESSAGE value="git add 2022 FibonacciNumber" />
     <MESSAGE value="git climb stairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="git climb stairs" />
+    <MESSAGE value="git opt[i][j] for paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="git opt[i][j] for paths" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
