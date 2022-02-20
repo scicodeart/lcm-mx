@@ -46,11 +46,8 @@ public class ClimbStairs1 {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int climbStairsBruteForce(int n) {
-            if (n == 1) {
-                return 1;
-            }
-            if (n == 2) {
-                return 2;
+            if (n <= 2) {
+                return n;
             }
             return climbStairs(n - 1) + climbStairs(n - 2);
         }

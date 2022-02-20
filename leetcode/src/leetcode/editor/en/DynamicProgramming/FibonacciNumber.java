@@ -16,7 +16,6 @@ public class FibonacciNumber {
 
     class SolutionDB {
         public int fib(int N) {
-
             int[] a = new int[N + 2];
             a[0] = 0;
             a[1] = 1;

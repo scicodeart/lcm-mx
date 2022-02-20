@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="git opt[i][j] for paths">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstaclesOpt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="add：unique paths">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/LongestCommonSubSequenceI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstaclesOpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstaclesOpt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +283,7 @@
       <workItem from="1644764367165" duration="742000" />
       <workItem from="1644909923617" duration="12635000" />
       <workItem from="1644978735434" duration="2952000" />
-      <workItem from="1645342677764" duration="8065000" />
+      <workItem from="1645342677764" duration="8848000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1641364305026</created>
@@ -318,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644978793654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add：unique paths">
+      <created>1645362305137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645362305137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +349,8 @@
     <MESSAGE value="git add 2022 FibonacciNumber" />
     <MESSAGE value="git climb stairs" />
     <MESSAGE value="git opt[i][j] for paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="git opt[i][j] for paths" />
+    <MESSAGE value="add：unique paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="add：unique paths" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

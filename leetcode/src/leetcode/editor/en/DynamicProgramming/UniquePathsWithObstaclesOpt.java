@@ -1,7 +1,7 @@
 package leetcode.editor.en.DynamicProgramming;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author
  * @date 2022/2/20 6:37 PM
  */
 public class UniquePathsWithObstaclesOpt {
