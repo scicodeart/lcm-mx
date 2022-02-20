@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="git opt[i][j] for paths">
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairs1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumberA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/FibonacciNumberA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstaclesOpt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,7 @@
       <recent name="leetcode.editor.en" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumPathSumA">
+  <component name="RunManager" selected="Application.UniquePathsWithObstacles">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -165,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.sort.QuickSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.en.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSortB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.sort.QuickSortB" />
       <module name="leetcode" />
@@ -191,13 +180,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.DynamicProgramming.UniquePathsWithObstacles" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.en.DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePathsWithObstacles" />
         <item itemvalue="Application.MinimumPathSumA" />
         <item itemvalue="Application.ClimbStairsA" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.QuickSortB (1)" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +280,8 @@
       <workItem from="1644503993776" duration="1273000" />
       <workItem from="1644764367165" duration="742000" />
       <workItem from="1644909923617" duration="12635000" />
+      <workItem from="1644978735434" duration="2952000" />
+      <workItem from="1645342677764" duration="8065000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1641364305026</created>
@@ -307,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644951106066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="git opt[i][j] for paths">
+      <created>1644978793654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644978793654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +364,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/ClimbStairsA.java</url>
           <line>71</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
