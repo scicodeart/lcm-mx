@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[1137]N-th Tribonacci Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/doc/content/[1137]N-th Tribonacci Number.md" />
+              <option name="frontendQuestionId" value="leetcode.com1137" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[1137]N-th Tribonacci Number.java" />
+              <option name="titleSlug" value="n-th-tribonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[1143]Longest Common Subsequence.java">
           <value>
             <LeetcodeEditor>
@@ -66,6 +77,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[70]Climbing Stairs.java" />
               <option name="titleSlug" value="climbing-stairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[746]Min Cost Climbing Stairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/doc/content/[746]Min Cost Climbing Stairs.md" />
+              <option name="frontendQuestionId" value="leetcode.com746" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/3w/xpxmkd2s7pjb4k1hmxp9f9c40000gn/T/leetcode/editor/en/[746]Min Cost Climbing Stairs.java" />
+              <option name="titleSlug" value="min-cost-climbing-stairs" />
             </LeetcodeEditor>
           </value>
         </entry>
