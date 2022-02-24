@@ -52,6 +52,8 @@ public class MinCostClimbingStairs {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minCostClimbingStairs(int[] cost) {
+            //todo
+            return 1;
 
         }
     }
