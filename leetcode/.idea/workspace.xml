@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="add：longestCommonSubsequence">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/MinCostClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,7 @@
       <recent name="leetcode.editor.en" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePathsWithObstacles">
+  <component name="RunManager" selected="Application.Triangle">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -175,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.sort.QuickSortB" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.en.DynamicProgramming.Triangle" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.en.sort.*" />
+          <option name="PATTERN" value="leetcode.editor.en.DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.UniquePathsWithObstacles" />
         <item itemvalue="Application.MinimumPathSumA" />
         <item itemvalue="Application.ClimbStairsA" />
         <item itemvalue="Application.ClimbStairs" />
-        <item itemvalue="Application.QuickSortB (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +290,8 @@
       <workItem from="1645342677764" duration="12839000" />
       <workItem from="1645498599872" duration="948000" />
       <workItem from="1645686653313" duration="24000" />
-      <workItem from="1645706118721" duration="2469000" />
+      <workItem from="1645706118721" duration="2671000" />
+      <workItem from="1645772274591" duration="6191000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1641364305026</created>
@@ -357,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645454417719</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add：longestCommonSubsequence">
+      <created>1645713572863</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645713572863</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,6 +421,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/UniquePathsWithObstacles.java</url>
           <line>49</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
