@@ -35,8 +35,9 @@ public class MaximumSubarrayI {
             int max = nums[0];
 
             for (int i = 0; i < nums.length; i++) {
-                //包含之前元素，往后比较
+                //关键是这一步：当前元素最大，或者之前的元素最大
                 pre = Math.max(nums[i], pre + nums[i]);
+                //存储循环过程中的最大值
                 max = Math.max(pre, max);
             }
             return max;
