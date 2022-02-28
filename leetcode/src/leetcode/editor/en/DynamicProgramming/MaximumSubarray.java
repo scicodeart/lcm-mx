@@ -11,9 +11,20 @@ public class MaximumSubarray {
 
     class Solution {
         public int maxSubArray(int[] nums) {
-
-            //
-            return 1;
+            // sum > 0 sum+
+            // sum < 0 choose the next
+            // save the result every run and compare the max
+            int result = nums[0];
+            int sum = 0;
+            for (int num : nums) {
+                if (sum > 0) {
+                    sum += num;
+                } else {
+                    sum = num;
+                }
+                result = Math.max(result, sum);
+            }
+            return result;
         }
     }
 
