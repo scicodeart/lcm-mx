@@ -11,6 +11,7 @@ public class MaximumSubarray {
 
     class Solution {
         public int maxSubArray(int[] nums) {
+
             // sum > 0 sum+
             // sum < 0 choose the next
             // save the result every run and compare the max
