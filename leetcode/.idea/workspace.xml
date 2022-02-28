@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="add：longestCommonSubsequence">
+    <list default="true" id="3aa1f10a-914b-4d44-b2bc-707459290fb8" name="Default Changelist" comment="add：Triangle">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/MaximumSubarrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/en/DynamicProgramming/FibonacciNumber$SolutionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/en/DynamicProgramming/FibonacciNumber$SolutionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/en/DynamicProgramming/LongestCommonSubsequenceA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/editor/en/DynamicProgramming/LongestCommonSubsequenceA.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +295,7 @@
       <workItem from="1645498599872" duration="948000" />
       <workItem from="1645686653313" duration="24000" />
       <workItem from="1645706118721" duration="2671000" />
-      <workItem from="1645772274591" duration="6191000" />
+      <workItem from="1645772274591" duration="9608000" />
     </task>
     <task id="LOCAL-00001" summary="git test">
       <created>1641364305026</created>
@@ -363,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645713572863</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add：Triangle">
+      <created>1645949708849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645949708849</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +398,8 @@
     <MESSAGE value="git opt[i][j] for paths" />
     <MESSAGE value="add：unique paths" />
     <MESSAGE value="add：longestCommonSubsequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="add：longestCommonSubsequence" />
+    <MESSAGE value="add：Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add：Triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,7 +436,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/editor/en/DynamicProgramming/Triangle.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
