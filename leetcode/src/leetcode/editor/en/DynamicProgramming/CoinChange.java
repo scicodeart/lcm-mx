@@ -3,7 +3,7 @@ package leetcode.editor.en.DynamicProgramming;
 import java.util.Arrays;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author Hermione.lai
  * @date 2022/3/2 9:55 PM
  */
 public class CoinChange {

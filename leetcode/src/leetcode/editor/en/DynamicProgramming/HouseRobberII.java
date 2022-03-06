@@ -1,7 +1,7 @@
 package leetcode.editor.en.DynamicProgramming;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author Hermione.lai
  * @date 2022/3/5 9:43 PM
  */
 public class HouseRobberII {

@@ -1,7 +1,7 @@
 package leetcode.editor.en.DynamicProgramming;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author Hermione.lai
  * @date 2022/3/5 11:08 PM
  */
 public class BestTimeToBuyAndSellStock2022 {

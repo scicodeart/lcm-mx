@@ -1,7 +1,7 @@
 package leetcode.editor.en.DynamicProgramming;
 
 /**
- * @author Hermione.lai@tuya.com
+ * @author Hermione.lai
  * @date 2022/3/6 5:47 PM
  */
 public class BestTimeToBuyAndSellStockII {
@@ -46,5 +46,4 @@ public class BestTimeToBuyAndSellStockII {
             return dp[len - 1][0];
         }
     }
-
 }
