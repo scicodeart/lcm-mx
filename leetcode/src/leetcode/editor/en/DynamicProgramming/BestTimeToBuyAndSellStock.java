@@ -1,6 +1,6 @@
 package leetcode.editor.en.DynamicProgramming;
 
-public class BestTimeToBuyAndSellStock{
+public class BestTimeToBuyAndSellStock {
 //Say you have an array for which the ith element is the price of a given stock
 //on day i.
 //
@@ -36,6 +36,7 @@ public class BestTimeToBuyAndSellStock{
 
         /**
          * 暴力破解法
+         *
          * @param prices
          * @return
          */
@@ -45,7 +46,7 @@ public class BestTimeToBuyAndSellStock{
             for (int i = 0; i < prices.length - 1; i++) {
                 for (int j = i + 1; j < prices.length; j++) {
                     int profit = prices[j] - prices[i];
-                    if (profit > maxprofit){
+                    if (profit > maxprofit) {
                         maxprofit = profit;
                     }
 
@@ -57,6 +58,7 @@ public class BestTimeToBuyAndSellStock{
 
         /**
          * 技巧篇，保证最低点在最高点的前面  时间复杂度：O(N)
+         *
          * @param prices
          * @return
          */
@@ -72,7 +74,7 @@ public class BestTimeToBuyAndSellStock{
             int minValue = prices[0];
             for (int i = 1; i < prices.length; i++) {
                 //找出最大值，然后反差
-                maxProfit = Math.max(prices[i]-minValue,maxProfit);
+                maxProfit = Math.max(prices[i] - minValue, maxProfit);
                 //找出最小值
                 minValue = Math.min(minValue, prices[i]);
             }
@@ -82,12 +84,12 @@ public class BestTimeToBuyAndSellStock{
 
         /**
          * 动态规划
-         *
+         * <p>
          * “动态规划”用于多阶段最优化问题的求解。这里天数代表每个阶段，即一天一天看，设置为第一维。
          * 为了消除后效性（前面的状态确定下来以后不会因为后面状态而更改），将当天是否持股设置为第二维的状态。
-         *
+         * <p>
          * 状态 dp[i][j] 表示：在索引为 i 的这一天，用户手上持股状态为 j 所获得的最大利润。
-         *
+         * <p>
          * 说明：
          * j 只有 2 个值：0 表示不持股（特指卖出股票以后的不持股状态），1 表示持股。
          * “用户手上不持股”不代表用户一定在索引为 i 的这一天把股票抛售了；
@@ -117,10 +119,9 @@ public class BestTimeToBuyAndSellStock{
     }
 
 
-
     public static void main(String[] args) {
         BestTimeToBuyAndSellStock.Solution solution = new BestTimeToBuyAndSellStock().new Solution();
-        int[] a = {2,5,3,4,6,7,9};
+        int[] a = {2, 5, 3, 4, 6, 7, 9};
         System.out.println(solution.maxProfit1(a));
     }
 
