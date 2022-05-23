@@ -20,14 +20,15 @@ public class ReverseLinkedList {
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
     /**
      * Definition for singly-linked list.
      * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+     * int val;
+     * ListNode next;
+     * ListNode() {}
+     * ListNode(int val) { this.val = val; }
+     * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      * }
      */
     class Solution {
@@ -35,6 +36,7 @@ public class ReverseLinkedList {
 
         /**
          * 反转链表
+         *
          * @param head
          * @return
          */
@@ -47,7 +49,7 @@ public class ReverseLinkedList {
             //用于记录后记指针，以此来获得后驱指针的记忆
             ListNode nextNode = null;
 
-            while (current!=null){
+            while (current != null) {
                 //后记节点
                 nextNode = current.next;
                 //让当前指针指向previous前驱
