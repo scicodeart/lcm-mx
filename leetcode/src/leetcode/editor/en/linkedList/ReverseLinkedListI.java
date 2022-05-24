@@ -19,7 +19,6 @@ public class ReverseLinkedListI {
      */
     class Solution {
         public ListNode reverseList(ListNode head) {
-
             // 空节点，作为前继节点
             ListNode prev = null;
             //用于表示当前指针
@@ -34,8 +33,23 @@ public class ReverseLinkedListI {
                 prev = current;
                 current = nextNode;
             }
-
             return prev;
+        }
+    }
+
+    class Solution2 {
+        public ListNode reverseList(ListNode head) {
+
+            //声明前继节点，方便循环
+            ListNode pre = null;
+            ListNode current = head;
+            while(current!=null){
+                ListNode next = current.next;
+                current.next = pre;
+                pre = current;
+                current = next;
+            }
+            return pre;
         }
     }
 }
