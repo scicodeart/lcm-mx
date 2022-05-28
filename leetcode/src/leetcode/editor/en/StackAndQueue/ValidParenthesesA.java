@@ -63,22 +63,21 @@ public class ValidParenthesesA {
     class Solution {
         public boolean isValid(String s) {
 
-            if(s.isEmpty())
-                return true;
-            Stack<Character> stack=new Stack<Character>();
+            if (s.isEmpty()) return true;
+            Stack<Character> stack = new Stack<>();
 
-            for(char c:s.toCharArray()){
-                if(c=='('){
+            for (char c : s.toCharArray()) {
+                if (c == '(') {
                     stack.push(')');
-                }else if (c=='['){
+                } else if (c == '[') {
                     stack.push(']');
-                }else if (c=='{'){
+                } else if (c == '{') {
                     stack.push('}');
-                }else if(stack.empty() || c!=stack.pop()){
+                } else if (stack.empty() || c != stack.pop()) {
                     return false;
                 }
             }
-            if(stack.empty())
+            if (stack.empty())
                 return true;
             return false;
         }

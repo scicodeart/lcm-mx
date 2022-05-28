@@ -63,7 +63,7 @@ public class ValidParentheses {
 
         // Initialize hash map with mappings. This simply makes the code easier to read.
         public Solution() {
-            this.mappings = new HashMap<Character, Character>();
+            this.mappings = new HashMap<>();
             this.mappings.put(')', '(');
             this.mappings.put('}', '{');
             this.mappings.put(']', '[');
@@ -86,10 +86,10 @@ public class ValidParentheses {
                 //校验key
                 if (mappings.containsKey(c)){
                     //查看是否已经有相对应的push，如果有就pop
-                    if (stack.contains(mappings.get(c))){
-                        stack.pop();
-                    }else {
+                    if (stack.isEmpty() || stack.peek() != mappings.get(c)){
                         return false;
+                    }else {
+                        stack.pop();
                     }
                 }else {
                     stack.push(c);
