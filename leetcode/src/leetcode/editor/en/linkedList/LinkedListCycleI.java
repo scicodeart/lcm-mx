@@ -22,7 +22,11 @@ public class LinkedListCycleI {
      */
     public class Solution {
         public boolean hasCycle(ListNode head) {
+
+            // 1. hash set
             HashSet<ListNode> collection = new HashSet<>();
+
+            // 2.
             while (head != null) {
                 if (collection.contains(head)) {
                     return true;
