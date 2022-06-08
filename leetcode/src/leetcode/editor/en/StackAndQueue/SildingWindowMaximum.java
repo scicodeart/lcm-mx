@@ -25,7 +25,6 @@ public class SildingWindowMaximum {
             for (int right = 0; right < nums.length; right++) {
                 // 如果队列不为空且当前考察元素大于等于队尾元素，则将队尾元素移除。
                 // 直到，队列为空或当前考察元素小于新的队尾元素
-
                 while (!queue.isEmpty() && nums[right] >= nums[queue.peekLast()]) {
                     queue.removeLast();
                 }
@@ -48,5 +47,12 @@ public class SildingWindowMaximum {
             }
             return res;
         }
+    }
+    public static void main(String[] args) {
+        SildingWindowMaximum.Solution solution = new SildingWindowMaximum().new Solution();
+        int[] heights = new int[]{1,3,-1,-3,5,3,6,7};
+        int[] ints = solution.maxSlidingWindow(heights, 3);
+        System.out.println(ints);
+
     }
 }
