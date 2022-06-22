@@ -29,13 +29,7 @@ public class GroupAnagramsI {
                     map.put(key, new ArrayList<>(Arrays.asList(strs[i])));
                 }
             }
-
-            List<List<String>> result = new ArrayList<>();
-            Set<String> objects = map.keySet();
-            for (Object key : objects) {
-                result.add(map.get(key));
-            }
-            return result;
+            return new ArrayList<List<String>>(map.values());
         }
     }
 
