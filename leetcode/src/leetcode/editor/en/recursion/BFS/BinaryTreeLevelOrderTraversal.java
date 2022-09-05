@@ -1,6 +1,5 @@
 package leetcode.editor.en.recursion.BFS;
 
-import com.sun.tools.javac.util.ListBuffer;
 import leetcode.editor.en.recursion.TreeNode;
 
 import javax.management.ListenerNotFoundException;
