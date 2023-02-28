@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="source-coding" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="netty" target="17" />
       <module name="source-coding" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="netty" options="-parameters" />
       <module name="source-coding" options="-parameters" />
     </option>
   </component>

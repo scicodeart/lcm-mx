@@ -20,8 +20,261 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc00d30f-8338-412b-9871-7e8b161fa117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/OrderTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/testEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/lcm-mx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lcm-mx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/JVM.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/Redis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/RocketMQ-FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-End/microservices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/AddTwoNumbers$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/FindMinimumInRotatedSortedArray$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/FindMinimumInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SearchA2DMatrix$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SearchA2DMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SearchInRotatedSortedArray$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SearchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SqrtX$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SqrtX$SolutionforFresh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/SqrtX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/ValidPerfectSquare$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/ValidPerfectSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/ValidPerfectSquareA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/BinarySearch/ValidPerfectSquareA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DeadLockExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DisjointSet/FriendsCircleCannot$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DisjointSet/FriendsCircleCannot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/LemonadeChange$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/LemonadeChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityELement$Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityELement$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityELement$Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityELement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityElementA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DivideAndConquer/MajorityElementA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/BestTimeToBuyAndSellStock$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairs$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsB$solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsB$solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsB$solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsB$solution4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsByteDance$solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsByteDance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsC$Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsC$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/ClimbStairsC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/FibonacciNumber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/FibonacciNumber$SolutionDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/FibonacciNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/GenerateParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/GenerateParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/HouseRobber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/HouseRobber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/LongestCommonSubsequence$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/LongestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/MaximumSubarray$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/MinimumPathSum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/MinimumPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/NthUglyNumber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/NthUglyNumber$SolutionByDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/NthUglyNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/TriangleDescription$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/TriangleDescription$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/TriangleDescription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePaths$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePathsA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePathsA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePathsII$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePathsII$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/DynamicProgramming/UniquePathsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/GroupAnagrams$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSumA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSumA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSumB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSumC$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/TwoSumC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/ValidAnagram$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/Hash/ValidAnagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/OrderNumberByTwoThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ImplementQueueUsingStacks$MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ImplementQueueUsingStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ValidParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ValidParenthesesA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/StackAndQueue/ValidParenthesesA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/BullsAndCows$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/BullsAndCows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ContainerWithMostWater$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/FizzBuzz$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/FizzBuzzA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/FizzBuzzA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/IntersectionOfTwoArraysII$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/IntersectionOfTwoArraysII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/LongestPalindrome$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/LongestSubstringWithoutRepeatingCharacters$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MedianSortedArrays$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MedianSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MergeSortedArray$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MergeSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MoveZeroes$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/MoveZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/PlusOne$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ReplaceSpace$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/Reverse$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ReverseBits$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ReverseBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSumA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSumA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSumB$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ThreeSumB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ValidPalindrome$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/array/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/BlackBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/GenerateParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/GenerateParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/LetterCombinationsOfAPhoneNumber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/LetterCombinationsOfAPhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/LetterCombinationsOfAPhoneNumberA$Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/LetterCombinationsOfAPhoneNumberA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/LetterCombinationsOfAPhoneNumberA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/NumberOfIsland$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/NumberOfIsland.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/PaintingPlan$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/PaintingPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/Powxn$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/Powxn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/SubSets$Solution1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/SubSets$Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/SubSets$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/backTracing/SubSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/NumberOfOneBits$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/NumberOfOneBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/PowerOfTwo$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/PowerOfTwo$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/PowerOfTwo$Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/bitwise/PowerOfTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/AssignCookies$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/AssignCookies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/BestTimeToBuyAndSellStock$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/BestTimeToBuyAndSellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/CoinChange$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/CoinChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/JumpGame$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/greedy/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/LinkedListCycle$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/LinkedListCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/MergeTwoSortedLists$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/MergeTwoSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/ReverseLinkedList$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/SwapNodesInPairs$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/SwapNodesInPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/SwapNodesInPairsA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/SwapNodesInPairsB$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/linkedList/SwapNodesInPairsB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/AddDigits$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/AddDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/BinaryTreeLevelOrderTraversal$Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/BinaryTreeLevelOrderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/BinaryTreeLevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/WalkingRobotSimulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/WordLadder$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/WordLadder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/WordLadderA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/BFS/WordLadderA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/FriendsCircle$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/FriendsCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/GenerateParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/GenerateParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/Minesweeper$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/Minesweeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/MinimumGeneticMutation$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/MinimumGeneticMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/NumberOfIslands$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/NumberOfIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/NumberOfIslandsA$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/DFS/NumberOfIslandsA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeInorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeInorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeLevelOrderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeLevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeLowestCommonAncestor$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreeLowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePostorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePostorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePostorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePreorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePreorderTraversal$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/BinaryTreePreorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/MaximumDepthOfBinaryTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/MaximumDepthOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/MergeTwoBinaryTrees$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/MergeTwoBinaryTrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/NAryTreePreorderTraversal$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/NAryTreePreorderTraversal$SolutionByRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/NAryTreePreorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/ValidateBinarySearchTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/ValidateBinarySearchTree$Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/recursion/tree/ValidateBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/sort/QuickSortA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/sort/QuickSortB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/GetLeastNumbersByHeap$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/GetLeastNumbersByHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/GetLeastNumbersByQuickSort$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/GetLeastNumbersByQuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/KthLargeElementInAnArray$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/KthLargeElementInAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/KthMagicNumber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/KthMagicNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/SlidingWindowMaximum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/SlidingWindowMaximum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/SlidingWindowMaximumA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/TopKFrequentElement$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/TopKFrequentElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/topk/TopKFrequentElementA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/ImplementTriePrefixTree$Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/ImplementTriePrefixTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/WordSearchII$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/WordSearchII$trieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/WordSearchII$wordTrie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/leetcode/editor/en/trie/WordSearchII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/src/leetcode/editor/en/array/SortColors$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/src/leetcode/editor/en/array/SortColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/testUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/testCompletable.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/leetcode/editor/en/testCompletable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +302,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/chuanminlai/IdeaProjects/lcm/lcm-mx",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="NettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.backend.netty.NettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -75,6 +339,7 @@
       <workItem from="1641363071469" duration="384000" />
       <workItem from="1659491910524" duration="193000" />
       <workItem from="1659492196550" duration="624000" />
+      <workItem from="1677598797843" duration="448000" />
     </task>
     <servers />
   </component>
