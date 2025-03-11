@@ -1,4 +1,4 @@
-package src.leetcode.editor.en;
+package leetcode.editor.en;
 
 
 /**

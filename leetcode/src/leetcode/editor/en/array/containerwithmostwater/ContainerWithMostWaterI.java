@@ -1,4 +1,4 @@
-package leetcode.editor.en.array;
+package leetcode.editor.en.array.containerwithmostwater;
 
 /**
  * @author Hermione.lai

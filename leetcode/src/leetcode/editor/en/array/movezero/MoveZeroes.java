@@ -1,4 +1,4 @@
-package leetcode.editor.en.array;
+package leetcode.editor.en.array.movezero;
 
 public class MoveZeroes {
 
@@ -64,3 +64,4 @@ public class MoveZeroes {
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
+

@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package src.leetcode.editor.en;
 
 import static java.math.BigInteger.ZERO;
 
