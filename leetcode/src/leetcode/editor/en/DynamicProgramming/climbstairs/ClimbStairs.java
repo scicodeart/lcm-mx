@@ -1,6 +1,6 @@
-package leetcode.editor.en.DynamicProgramming;
+package leetcode.editor.en.DynamicProgramming.climbstairs;
 
-public class ClimbStairsA {
+public class ClimbStairs {
 
 //You are climbing a stair case. It takes n steps to reach to the top.
 //
@@ -41,48 +41,34 @@ public class ClimbStairsA {
     class Solution {
 
         /**
-         * 1 暴力是否可行
-         * 2 基本情况：
-         * 1：1
-         * 2：2
-         * 3：f(1) + f(2)
-         * 4：f(2) + f(3)
-         * <p>
-         * f(n) = f(n-1) + f(n-2) :Fibonacci
-         * 找重复子问题（找重复性）
-         * <p>
          * 滚动数组 动态规划 f(x)=f(x−1)+f(x−2)
-         * 不需要保存所有的值，只需要不断传递最新的三个值 得出结果
          *
          * @param n
          * @return
          */
         public int climbStairs(int n) {
 
-            if (n <= 2) {
-                return n;
-            }
-            int f1 = 1;
-            int f2 = 2;
-            int f3 = 3;
-            for (int i = 3; i <= n ; i++) {
+            int a = 0;
+            int b = 0;
+            int methodWays = 1;
 
-                f3 = f1 + f2;
-                f1 = f2;
-                f2 = f3;
+            /**
+             * i = 1 , 方法一种
+             */
+            for (int i = 1; i <= n; i++) {
+                a = b;
+                b = methodWays;
+                methodWays = a + b;
             }
-            return f3;
+            return methodWays;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
-        String data = "cd138ee090d6b0e246207cfaa91fa91fca0b86e3";
-        System.out.println(data.length());
-
+        ClimbStairs.Solution solution = new ClimbStairs().new Solution();
+        System.out.println(solution.climbStairs(2));
     }
-
-
 
 
 }

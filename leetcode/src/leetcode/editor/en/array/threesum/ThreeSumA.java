@@ -1,4 +1,4 @@
-package leetcode.editor.en.array;
+package leetcode.editor.en.array.threesum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

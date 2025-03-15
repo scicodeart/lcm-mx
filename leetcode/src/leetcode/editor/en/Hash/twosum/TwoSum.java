@@ -14,7 +14,7 @@
 //
 // Related Topics array Hash Table
 
-package leetcode.editor.en.Hash;
+package leetcode.editor.en.Hash.twosum;
 
 
 import java.util.Arrays;

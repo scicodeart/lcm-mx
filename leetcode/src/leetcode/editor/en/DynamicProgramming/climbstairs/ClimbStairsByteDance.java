@@ -1,4 +1,4 @@
-package leetcode.editor.en.DynamicProgramming;
+package leetcode.editor.en.DynamicProgramming.climbstairs;
 
 /**
  * 爬楼梯变种：不能连续走相邻的两步

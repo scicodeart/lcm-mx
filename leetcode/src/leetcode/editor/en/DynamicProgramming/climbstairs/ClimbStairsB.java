@@ -1,4 +1,4 @@
-package leetcode.editor.en.DynamicProgramming;
+package leetcode.editor.en.DynamicProgramming.climbstairs;
 
 /**
  * @author Lai
