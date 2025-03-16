@@ -38,6 +38,7 @@ public class ThreeSum2025 {
                 while (left < right) {
                     //固定k，查看左右指针往哪边移动
                     if (nums[left] + nums[right] < -nums[k]) {
+                        //todo 这里可以优化 碰到相同数值往后移动
                         left++;
                     } else if (nums[left] + nums[right] > -nums[k]) {
                         right--;

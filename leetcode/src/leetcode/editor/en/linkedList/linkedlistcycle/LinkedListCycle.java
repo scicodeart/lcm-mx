@@ -1,4 +1,6 @@
-package leetcode.editor.en.linkedList;
+package leetcode.editor.en.linkedList.linkedlistcycle;
+
+import leetcode.editor.en.linkedList.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -126,25 +128,6 @@ public class LinkedListCycle {
 //leetcode submit region end(Prohibit modification and deletion)
 
 
-
-
-
-
-    public static void main(String[] args) {
-        LinkedListCycle.Solution solution = new LinkedListCycle().new Solution();
-
-        ListNode head =new ListNode(5);
-        head.next = new ListNode(5);
-        head.next.next = new ListNode(2);
-        head.next.next.next = new ListNode(2);
-        head.next.next.next.next = new ListNode(2);
-        head.next.next.next.next.next = new ListNode(2);
-
-
-//        head.next.next = head;
-        System.out.println(solution.hasCycle2(head));
-
-    }
 
 
 
