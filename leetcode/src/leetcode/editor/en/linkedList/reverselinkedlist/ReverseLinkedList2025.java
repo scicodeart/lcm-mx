@@ -58,15 +58,19 @@ public class ReverseLinkedList2025 {
         }
 
 
+        /**
+         * 不定义Current
+         * @param head
+         * @return
+         */
         public ListNode reverseListPracticeI(ListNode head) {
             ListNode prev = null;
-            ListNode current = head;
             ListNode nextNode = null;
-            while (current != null) {
-              nextNode =  current.next;
-              head.next = prev;
-              prev = current;
-              current = nextNode;
+            while (head != null) {
+                nextNode = head.next;
+                head.next = prev;
+                prev = head;
+                head = nextNode;
             }
             return prev;
         }

@@ -1,7 +1,4 @@
 package leetcode.editor.en.linkedList.linkedlistcycle;
-
-import leetcode.editor.en.linkedList.ListNode;
-
 import java.util.HashSet;
 
 /**

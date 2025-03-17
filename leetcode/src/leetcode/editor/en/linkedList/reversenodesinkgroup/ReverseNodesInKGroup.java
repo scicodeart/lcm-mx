@@ -1,4 +1,4 @@
-package leetcode.editor.en.linkedList;
+package leetcode.editor.en.linkedList.reversenodesinkgroup;
 
 /**
  * @author Lai
@@ -18,6 +18,12 @@ public class ReverseNodesInKGroup {
      * }
      */
     class Solution {
+        /**
+         * 递归
+         * @param head
+         * @param k
+         * @return
+         */
         public ListNode reverseKGroup(ListNode head, int k) {
             //判空
             if (head == null || head.next == null) { return head; }
@@ -33,6 +39,7 @@ public class ReverseNodesInKGroup {
             head.next = reverseKGroup(tail, k);
             return newNode;
         }
+
         private ListNode reverse206(ListNode head, ListNode tail) {
             ListNode pre = null;
             //为什么这里是！= tail，tail为一组结尾的next节点

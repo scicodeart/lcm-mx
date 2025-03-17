@@ -1,4 +1,4 @@
-package leetcode.editor.en.linkedList;
+package leetcode.editor.en.linkedList.reversenodesinkgroup;
 
 /**
  * @author Lai
