@@ -1,4 +1,4 @@
-package leetcode.editor.en.StackAndQueue;
+package leetcode.editor.en.StackAndQueue.validparentheses;
 
 import java.util.Stack;
 
