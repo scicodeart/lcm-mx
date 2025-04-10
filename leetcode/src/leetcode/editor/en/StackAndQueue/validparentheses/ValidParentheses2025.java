@@ -1,9 +1,6 @@
 package leetcode.editor.en.StackAndQueue.validparentheses;
 
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 
 public class ValidParentheses2025 {
@@ -16,13 +13,11 @@ public class ValidParentheses2025 {
      */
     class Solution {
 
-
         Map<Character, Character> pairs = new HashMap<>() {{
             put(')', '(');
             put(']', '[');
             put('}', '{');
         }};
-
 
         public boolean isValid(String s) {
             if (s.length() % 2 == 1) {
@@ -37,6 +32,7 @@ public class ValidParentheses2025 {
                     if (stack.isEmpty() || stack.peek() != value) {
                         return false;
                     }
+                    //匹配，则pop
                     stack.pop();
                 } else {
                     // left enter stack
@@ -44,6 +40,30 @@ public class ValidParentheses2025 {
                 }
             }
             return stack.isEmpty();
+        }
+    }
+
+
+    class SolutionSimple {
+        public boolean isValid(String s) {
+
+            if (s.isEmpty()) return true;
+            Stack<Character> stack = new Stack<>();
+
+            for (char c : s.toCharArray()) {
+                if (c == '(') {
+                    stack.push(')');
+                } else if (c == '[') {
+                    stack.push(']');
+                } else if (c == '{') {
+                    stack.push('}');
+                } else if (stack.empty() || c != stack.pop()) {
+                    return false;
+                }
+            }
+            if (stack.empty())
+                return true;
+            return false;
         }
     }
 

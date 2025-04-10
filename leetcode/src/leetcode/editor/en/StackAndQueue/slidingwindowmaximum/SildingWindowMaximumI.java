@@ -1,4 +1,4 @@
-package leetcode.editor.en.StackAndQueue;
+package leetcode.editor.en.StackAndQueue.slidingwindowmaximum;
 
 import java.util.LinkedList;
 

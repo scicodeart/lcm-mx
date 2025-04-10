@@ -1,4 +1,4 @@
-package leetcode.editor.en.StackAndQueue;
+package leetcode.editor.en.StackAndQueue.minstack;
 
 import java.util.Deque;
 import java.util.LinkedList;

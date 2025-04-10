@@ -41,7 +41,6 @@ public class ThreeSumB {
 
             }
             return result;
-
         }
     }
 }

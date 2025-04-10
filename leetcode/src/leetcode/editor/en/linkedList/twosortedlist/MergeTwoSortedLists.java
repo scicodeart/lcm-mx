@@ -1,4 +1,5 @@
-package leetcode.editor.en.linkedList;
+package leetcode.editor.en.linkedList.twosortedlist;
+
 
 public class MergeTwoSortedLists {
 
